@@ -1,0 +1,48 @@
+.mb-3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 6%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.input1 , .input2{
+    padding-left: 450px;
+    width: 900px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+
+    border-radius: 50px;
+    border: 0;
+    opacity: 0.5;
+    font-size: 17px;
+}
+
+.input2{
+    margin-top: -10px;
+    
+}
+
+.btnlog, .btnsign{
+    margin-left: 450px;
+    width: 450px;
+
+}
+
+.googlebtn{
+    width:450px;
+    margin-left: 450px;
+}
+
+.phonebtn{
+    margin-left: 450px;
+    width: 450px;
+}
+
+.dntacc{
+    margin-left: 450px;
+    width: 450px;
+}
+.dntacc-link{
+    color: blue;
+}
