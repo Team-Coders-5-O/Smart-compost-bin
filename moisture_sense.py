@@ -19,5 +19,11 @@ chan = AnalogIn(mcp, MCP.P0)
 
 def getMoistureValue():
   raw_value =  chan.value
-  return str(chan.voltage) 
+  state = "N/A"
+  if(chan.voltage> 1.8 and chan.voltage <2.3):
+     state = "WET"
+  else if (chan.voltage > 2.3 and chan.voltage < 3.0)
+     state = "DRY"
+  return state
+
 
