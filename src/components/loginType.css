@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.type{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    height: 600px;    
+    margin-left: 250px;
+    border-radius: 50px;
+}
+.typeHead{
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+    /* color: black;
+  -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 0.1mm;
+  -webkit-text-stroke-color: black; */
+  font-size: 70px;
+  padding: 50px 0 0 180px;
+}
+
+.expert{
+    width: 350px;
+}
+
+.customer{
+    width: 280px;
+    margin-top: -100px;
+    transform: translate(110%,-110%);
+    
+    
+}
+
+.expertbtn{
+    padding: 9px 25px;
+    background-color: rgb(206, 125, 20);
+    opacity: 0.8;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    transform: translate(-165%,-400%);
+    
+}
+.cusbtn{
+    padding: 9px 25px;
+    background-color: rgb(206, 125, 20);
+    opacity: 0.8;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    transform: translate(13%,-400%);
+    
+}
