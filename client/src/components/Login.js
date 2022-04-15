@@ -7,6 +7,7 @@ import { useUserAuth } from "../context/UserAuthContext";
 import Logo from "../IMAGES/logo.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Login.css'
+import Axios from 'axios';
 
 
 
@@ -16,6 +17,15 @@ const Login = () => {
   const [error, setError] = useState("");
   const { logIn, googleSignIn } = useUserAuth();
   const navigate = useNavigate();
+
+  const UserLogin = () => {
+    Axios.post("http://localhost:3001/api/insert", {
+      Email: email, 
+      Password: password,
+    }).then(()=> {
+      alert("successful insert")
+    })
+  }; 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -75,7 +85,7 @@ const Login = () => {
           </Form.Group>
 
           <div className="d-grid gap-2">
-            <Button variant="primary" type="Submit" className="btnlog">
+            <Button onClick={UserLogin} variant="primary" type="Submit" className="btnlog">
               Log In
             </Button>
           </div>
