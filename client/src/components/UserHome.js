@@ -18,7 +18,7 @@ import temp from "../IMAGES/temperature.png";
 
 
 const UserHome = () => {
-  const [data, setData] = useState([{}])
+  const [data, setdata] = useState([{}])
   const { logOut, user } = useUserAuth();
   const navigate = useNavigate();
   const handleLogout = async () => {
@@ -30,16 +30,18 @@ const UserHome = () => {
     }
   };
 
-  useEffect(() => {
-    fetch("/dashboard").then(
-      res => res.json()
-    ).then(
-      data => {
-        setData(data)
-        console.log(data)
-      }
-    )
-  }, [])
+
+useEffect (() => {
+  fetch("/dashboard").then(
+    res => res.json()
+  ).then(
+    data=> {
+      setdata(data)
+      console.log(data)
+    }
+  )
+}, [])
+
 
 
   return (
@@ -66,7 +68,7 @@ const UserHome = () => {
       <div className="dashboard">
         <div className="days"></div>
         <div className="dayMar"></div>
-        <div className="numDays">5</div>
+        <div className="numDays">{data.days}</div>
         <div className="fullyDates">Days out of 60 days</div>
 
 
@@ -81,7 +83,7 @@ const UserHome = () => {
               />
             </div>
             <div className="moisttxt">Moisture</div>
-            <div className="presentage_1">57</div>
+            <div className="presentage_1">{data.moisture}</div>
           </div>
 
           <div className="pH">
@@ -104,7 +106,7 @@ const UserHome = () => {
               />
             </div>
             <div className="temptxt">Temperature</div>
-            <div className="presentage_2">58F</div>
+            <div className="presentage_2">{data.temp}F</div>
           </div>
 
           <div className="comStage">
@@ -117,7 +119,7 @@ const UserHome = () => {
               />
             </div>
             <div className="comtxt">Compost Stage</div>
-            <div className="presentage_2">50</div>
+            <div className="presentage_2">{data.stage}</div>
           </div>
 
 
