@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'smart-compost-flask'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8BD3582AF7B6480CA4AA976427721127 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E8D1AE2E5A11499C85C8A608930A142E }}
           package: .
