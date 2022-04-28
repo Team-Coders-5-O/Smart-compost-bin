@@ -1,10 +1,15 @@
 import React, { useState, useEffect, Component } from "react";
 import "./AddQuestion.css";
-import logo from "./images/logo.png";
+import { Link } from "react-router-dom";
+import Logo from "../IMAGES/logo.png";
+import logo from "../IMAGES/logo.png";
+import { useNavigate } from "react-router";
+import { useUserAuth } from "../context/UserAuthContext";
 import { MdThumbUp, MdReply, MdPerson, MdSearch } from "react-icons/md";
 
 // var namesList = [];
 // var descriptionList = [];
+
 
 const SetData = (props) => {
   const { name, description } = props;
@@ -15,7 +20,7 @@ const SetData = (props) => {
         <div className="image">
           <MdPerson className="image-icon" />
         </div>
-        <div className="name">Name :-{name}</div>
+        <div className="name"> {name}</div>
       </div>
 
       <div className="comments">
@@ -49,7 +54,16 @@ function Ask() {
   const onClickReply = () => {
     
   }
-
+  const { logOut, user } = useUserAuth();
+  const navigate = useNavigate();
+  const handleLogout = async () => {
+    try {
+      await logOut();
+      navigate("/login");
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
   const [nameList, setNameList] = useState([]);
   const [descriptionList, setDescriptionList] = useState([]);
 
@@ -79,27 +93,15 @@ function Ask() {
   return (
     <>
       <div>
-        <header>
-          <img src={logo} alt="logo" className="logo" />
+      <header>
+          <Link to="/"><img src={Logo} className = "LogoImg"/></Link>
           <nav>
-            <ul className="nav_links">
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">Community</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Contact Us</a>
-              </li>
+            <ul class="nav_links">
+              <li><Link to="/userhome">Home</Link></li>
+              <li><Link to="/community">Community</Link></li>
             </ul>
           </nav>
-          <a className="cta" href="">
-            <button>Login</button>
-          </a>
+          <Link class="cta" to="/logintype"><button onClick={handleLogout}>Logout</button></Link>
         </header>
 
         <div className="searchBox">

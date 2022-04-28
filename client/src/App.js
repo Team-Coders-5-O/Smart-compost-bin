@@ -8,7 +8,7 @@ import PhoneSignup from "./components/Phonesignup"
 import ProtectedRoute from "./components/ProtectedRoute";
 import UserHome from "./components/UserHome";
 import Home from './components/Home';
-import Community from './components/Community';
+import Community from './components/AddQuestion';
 import About from './components/About';
 import Contact from './components/Contact'
 import LoginType from './components/loginType';

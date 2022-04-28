@@ -1,48 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@media only screen and (max-width: 1300px) {
+
+
 .mb-3{
     text-align: center;
-    color: white;
-    font-size: 50px;
-    margin-top: 2%;
-    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 5%;
+    font-family: 'Inter', sans-serif;
+
 }
+
 
 .input1 , .input2{
     padding-left: 300px;
     width: 800px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
-
+    /* color: black; */
+    font-weight: bold;
     border-radius: 50px;
     border: 0;
-    opacity: 0.5;
+    opacity: 100%;
     font-size: 17px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .input2{
     margin-top: -10px;
-    
+    color: blue;
+    margin: 0% 0% 0% -53%;;
+}
+
+.input1{
+    margin: 8% 0% 0% -53%;
+}
+
+.Email{
+    margin: 5% 0% 0% 0%;
+    color: black;
+    height: 50px;
+}
+
+.Password{
+    height: 50px;
 }
 
 .btnlog, .btnsign{
-    margin-left: 300px;
+    margin-left: -25px;
     width: 500px;
 
 }
 
 .googlebtn{
     width:500px;
-    margin-left: 300px;
+    margin-left: 17px;
+    margin-bottom: 3%;
 }
 
 .phonebtn{
-    margin-left: 300px;
+    margin-left: -24px;
     width: 500px;
 }
 
 .dntacc{
-    margin-left: 300px;
+    margin-left: 17px;
     width: 500px;
+    margin-bottom: 10%;
 }
 .dntacc-link{
     color: blue;
+    margin: 0% 0% 0% 8%;
+}
+
+.gap-2{
+    margin: 3% 0% 4% 8%;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+    .mb-3{
+        text-align: center;
+        color: rgb(53, 24, 212);
+        font-size: 40px;
+        margin-top: 5%;
+        font-family: 'Inter', sans-serif;
+    
+    }
+    
+    
+    .input1 , .input2{
+        padding-left: 300px;
+        width: 800px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        /* color: black; */
+        font-weight: bold;
+        border-radius: 50px;
+        border: 0;
+        opacity: 100%;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .input2{
+        margin-top: -10px;
+        color: blue;
+        margin: 0% 0% 0% -53%;;
+    }
+    
+    .input1{
+        margin: 8% 0% 0% -53%;
+    }
+    
+    .Email{
+        margin: 5% 0% 0% 0%;
+        color: black;
+        height: 50px;
+    }
+    
+    .Password{
+        height: 50px;
+    }
+    
+    .btnlog, .btnsign{
+        margin-left: -25px;
+        width: 500px;
+    
+    }
+    
+    .googlebtn{
+        width:500px;
+        margin-left: 17px;
+        margin-bottom: 3%;
+    }
+    
+    .phonebtn{
+        margin-left: -24px;
+        width: 500px;
+    }
+    
+    .dntacc{
+        margin-left: 17px;
+        width: 500px;
+        margin-bottom: 10%;
+    }
+    .dntacc-link{
+        color: blue;
+        margin: 0% 0% 0% 8%;
+    }
+    
+    .gap-2{
+        margin: 3% 0% 4% 8%;
+    }
+    }
+
+@media only screen and (min-width: 600px) {
+
+    .mb-3{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 60px;
+        margin-top: 5%;
+        font-family: 'Inter', sans-serif;
+    
+    }
+    
+    
+    .input1 , .input2{
+        padding-left: 300px;
+        width: 800px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        /* color: black; */
+        font-weight: bold;
+        border-radius: 50px;
+        border: 0;
+        opacity: 100%;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .input2{
+        margin-top: -10px;
+        color: blue;
+        margin: 0% 0% 0% 8%;;
+    }
+    
+    .input1{
+        margin: 8% 0% 0% 8%;
+    }
+    
+    .Email{
+        margin: 5% 0% 0% 0%;
+        color: black;
+        height: 50px;
+    }
+    
+    .Password{
+        height: 50px;
+    }
+    
+    .btnlog, .btnsign{
+        margin-left: 300px;
+        width: 500px;
+    
+    }
+    
+    .googlebtn{
+        width:500px;
+        margin-left: 400px;
+        margin-bottom: 3%;
+    }
+    
+    .phonebtn{
+        margin-left: 300px;
+        width: 500px;
+    }
+    
+    .dntacc{
+        margin-left: 400px;
+        width: 500px;
+        
+    }
+    .dntacc-link{
+        color: blue;
+        margin: 0% 0% 0% 8%;
+    }
+    
+    .gap-2{
+        margin: 3% 0% 4% 8%;
+    }
 }

@@ -6,6 +6,7 @@
 }
 
 
+
 body{
     background-image: url("../IMAGES/plant-in-compost.jpg");
     background-repeat: no-repeat;
@@ -27,20 +28,28 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    /* background-color: aliceblue; */
 }
 
 .logo{
     cursor: pointer;
+    margin: 0% 0% 0% -20%;
 }
 
-.nav_links{
+/* .LogoImg{
+    
+    margin: 0% 0% 0% -180%;
+} */
+/* .nav_links{
     list-style: none;
-}
+    margin-left: -60%;
+} */
 
-.nav_links li{
+/* .nav_links li{
     display: inline;
     padding: 0 20px;
-}
+   
+} */
 
 .nav_links li a{
     transition: all 0.3s ease 0s;
@@ -50,7 +59,7 @@ header{
     color: #CA791A;
 }
 
-button{
+/* button{
     padding: 9px 25px;
     background-color: #CA791A;
     opacity: 0.8;
@@ -58,8 +67,25 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    
+} */
 
+
+/* .cta2{
+    padding: 9px 25px;
+    background-color: #CA791A;
+    opacity: 0.8;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: -40%;
 }
+
+.cta{
+    margin-right: -25%;
+}  
+  */
 
 button:hover{
     opacity: 1;

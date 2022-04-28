@@ -9,18 +9,32 @@ import comp from "../IMAGES/compostStage.png";
 import cust from "../IMAGES/customer.png";
 import logo from "../IMAGES/logo.png";
 import moisture from "../IMAGES/moisture.png";
+<<<<<<< HEAD
+import humidity from "../IMAGES/hummidity.png";
+=======
 import ph from "../IMAGES/ph.png";
+>>>>>>> main
 // import bg from "./images/plant-in-compos.png"
 import temp from "../IMAGES/temperature.png";
 
 
 
 
+<<<<<<< HEAD
+function refreshPage() {
+  window.location.reload(false);
+}
 
 const UserHome = () => {
   const [data, setdata] = useState([{}])
+=======
+
+const UserHome = () => {
+  const [data, setData] = useState([{}])
+>>>>>>> main
   const { logOut, user } = useUserAuth();
   const navigate = useNavigate();
+  
   const handleLogout = async () => {
     try {
       await logOut();
@@ -30,6 +44,7 @@ const UserHome = () => {
     }
   };
 
+<<<<<<< HEAD
 
 useEffect (() => {
   fetch("/dashboard").then(
@@ -42,12 +57,31 @@ useEffect (() => {
   )
 }, [])
 
+=======
+  useEffect(() => {
+    fetch("/dashboard").then(
+      res => res.json()
+    ).then(
+      data => {
+        setData(data)
+        console.log(data)
+      }
+    )
+  }, [])
+>>>>>>> main
 
 
   return (
     <>
       <div>
         <header>
+<<<<<<< HEAD
+          <Link to="/"><img src={Logo} className = "LogoImg" /></Link>
+          <nav>
+            <ul class="nav_links">
+              <li><Link to="/userhome">Home</Link></li>
+              <li><Link to="/community">Community</Link></li>
+=======
           <Link to="/"><img src={Logo} /></Link>
           <nav>
             <ul class="nav_links">
@@ -55,6 +89,7 @@ useEffect (() => {
               <li><Link to="/community">Community</Link></li>
               <li><Link to="/about">About</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
+>>>>>>> main
             </ul>
           </nav>
           <Link class="cta" to="/logintype"><button onClick={handleLogout}>Logout</button></Link>
@@ -63,15 +98,30 @@ useEffect (() => {
       <div className="p-4 box mt-3 text-center">
         Hello Welcome <br />
         {user && user.email}
+        {localStorage.setItem('UserEmail', user.email)} 
+        
       </div>
-
+<<<<<<< HEAD
+<div className="test2">kjhkj</div>
       <div className="dashboard">
         <div className="days"></div>
         <div className="dayMar"></div>
         <div className="numDays">{data.days}</div>
         <div className="fullyDates">Days out of 60 days</div>
 
+        <div className="ex">example</div>
 
+        <button className="refreshBtn" onClick={refreshPage}>Refresh</button>
+=======
+
+      <div className="dashboard">
+        <div className="days"></div>
+        <div className="dayMar"></div>
+        <div className="numDays">5</div>
+        <div className="fullyDates">Days out of 60 days</div>
+
+
+>>>>>>> main
         <div className="readings">
 
           <div className="moisture">
@@ -83,17 +133,28 @@ useEffect (() => {
               />
             </div>
             <div className="moisttxt">Moisture</div>
+<<<<<<< HEAD
             <div className="presentage_1">{data.moisture}</div>
+=======
+            <div className="presentage_1">57</div>
+>>>>>>> main
           </div>
 
           <div className="pH">
             <div className="Icon">
               <img
                 className="phImg"
+<<<<<<< HEAD
+                src={humidity} alt="pH" />
+            </div>
+            <div className="pHtxt">Humidity</div>
+            <div className="presentage_1">{data.humidity}</div>
+=======
                 src={ph} alt="pH" />
             </div>
             <div className="pHtxt">pH Level</div>
             <div className="presentage_1">50</div>
+>>>>>>> main
           </div>
 
           <div className="temperature">
@@ -106,7 +167,11 @@ useEffect (() => {
               />
             </div>
             <div className="temptxt">Temperature</div>
-            <div className="presentage_2">{data.temp}F</div>
+<<<<<<< HEAD
+            <div className="presentage_2">{data.temperature}F</div>
+=======
+            <div className="presentage_2">58F</div>
+>>>>>>> main
           </div>
 
           <div className="comStage">
@@ -118,8 +183,13 @@ useEffect (() => {
 
               />
             </div>
-            <div className="comtxt">Compost Stage</div>
+<<<<<<< HEAD
+            <div className="comtxt">Stage</div>
             <div className="presentage_2">{data.stage}</div>
+=======
+            <div className="comtxt">Compost Stage</div>
+            <div className="presentage_2">50</div>
+>>>>>>> main
           </div>
 
 
@@ -127,7 +197,11 @@ useEffect (() => {
         </div>
 
 
+<<<<<<< HEAD
+       
+=======
         <button>Refresh</button>
+>>>>>>> main
 
 
 

@@ -5,6 +5,14 @@
     padding: 0;
 } */
 
+<<<<<<< HEAD
+@media only screen and (max-width: 2500px) {
+    body{
+        background-image: url("../IMAGES/plant-in-compost.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+=======
 
 body{
     background-image: url("../IMAGES/plant-in-compost.jpg");
@@ -121,76 +129,392 @@ button:hover{
     height: 40px;
     width: 40px;
     margin-top: 30px;
+>>>>>>> main
     
-}
+    li,a,button{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color: #edf0f1;
+        text-decoration: none;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+    }
+    
+    .logo{
+        cursor: pointer;
+    }
+    
+    .nav_links{
+        list-style: none;
+    }
+    
+    .nav_links li{
+        display: inline;
+        padding: 0 20px;
+    }
+    
+    .nav_links li a{
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav_links li a:hover{
+        color: #CA791A;
+    }
+    
+    button{
+        padding: 9px 25px;
+        background-color: #CA791A;
+        opacity: 0.8;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    
+    }
+    
+    button:hover{
+        opacity: 1;
+    
+    }
+    
+    .days{
+        text-align: center;
+        background-color: gray;
+        margin: 4% 0% 0% 40.5%; 
+        border-radius:50% ;
+        width: 250px;
+        height: 250px;
+    
+    }
+    
+    .dayMar{
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        margin: -18.5% 40% 0 41.3%; 
+        border-radius:50% ;
+        width: 230px;
+        height: 230px;
+        /* opacity: 0.9;    */
+    }
+    .numDays{
+        margin: 5% 0% 0 6%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+    
+    .fullyDates{
+        margin: -12% 0 0% 0%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    
+    .refreshBtn{
+        margin: 8% 0% 4% 46%;
+    }
+    
+    .moisture{
+        background-color: #BFE7BF;
+        flex-wrap: wrap;  
+        width: 230px;
+        height: 140px;
+        margin: 0% 0 0 33%;
+        opacity: 0.8;
+    }
+    
+    .moisttxt{
+        margin: -15% 0 0 36%;
+        font-size: 25px;
+       
+    }
+    .presentage{
+        margin: 0% 0 0 47%; 
+        font-size: 20px;
+    }
+    
+    .moistImg{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        
+    }
+    
+    .Icon{
+        margin-left: 20px;   
+    }
+    
+    .pH{
+        background-color: #BFE7BF;
+        flex-wrap: wrap;
+        width: 230px; 
+        height: 140px;
+        padding-top: 30px; 
+        margin: -10.8% 0 0 52%; 
+        opacity: 0.8;
+    }
+    .pHtxt{
+        margin: -18% 0 0 36%;
+        font-size: 25px;
+    }
+    
+    .phImg{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .presentage_1{
+        margin: 7% 0 0 47%;
+        font-size: 20px;   
+    }
+    
+    .temperature{
+        background-color: #BFE7BF;
+        flex-wrap: wrap;
+        width: 230px; 
+        height: 140px;
+        padding-top: 30px;
+        margin: 1.5% 0 0 33%;
+        opacity: 0.8;
+    }
+    .temptxt{
+        margin: -20% 0 0 36%;
+        font-size: 25px;
+    }
+    
+    .tempImg{
+        height: 50px;
+        width: 50px;
+    }
+    .presentage_2{
+        margin: 7% 0 0 47%;
+        font-size: 20px;   
+    }
+    
+    .comStage{
+        background-color: #BFE7BF;
+        flex-wrap: wrap;
+        width: 230px; 
+        height: 140px;
+        padding-top: 30px;
+        margin: -10.8% 0 0% 52% ;
+        opacity: 0.8;
+    }
+    
+    .comtxt{
+        margin: -20% 0 0 38%;
+        font-size: 25px;
+    }
+    
+    .comImg{
+        height: 40px;
+        width: 40px;
+    }
+    
+    
+    }
 
-.Icon{
-    margin-left: 20px;   
-}
 
-.pH{
-    background-color: #BFE7BF;
-    flex-wrap: wrap;
-    width: 230px; 
-    height: 110px;
-    padding-top: 30px; 
-    margin: -7.3% 0 0 53%; 
-    opacity: 0.8;
-}
-.pHtxt{
-    margin: -20% 0 0 36%;
-    font-size: 25px;
-}
 
-.phImg{
-    height: 50px;
-    width: 50px;
-}
 
-.presentage_1{
-    margin: 7% 0 0 47%;
-    font-size: 20px;   
-}
+@media only screen and (max-width: 900px) {
 
-.temperature{
-    background-color: #BFE7BF;
-    flex-wrap: wrap;
-    width: 230px; 
-    height: 110px;
-    padding-top: 30px;
-    margin: 2% 0 0 40%;
-    opacity: 0.8;
-}
-.temptxt{
-    margin: -20% 0 0 36%;
-    font-size: 25px;
-}
+    body{
+        background-image: url("../IMAGES/plant-in-compost.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    li,a,button{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color: #edf0f1;
+        text-decoration: none;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+    }
+    
+    .logo{
+        cursor: pointer;
+    }
+    
+    .nav_links{
+        list-style: none;
+    }
+    
+    .nav_links li{
+        display: inline;
+        padding: 0 20px;
+    }
+    
+    .nav_links li a{
+        transition: all 0.3s ease 0s;
+    }
+    
+    .nav_links li a:hover{
+        color: #CA791A;
+    }
+    
+    button{
+        padding: 9px 25px;
+        background-color: #CA791A;
+        opacity: 0.8;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    
+    }
+    
+    button:hover{
+        opacity: 1;
+    
+    }
+    
+    .days{
+        text-align: center;
+        background-color: gray;
+        margin: 4% 40% 0% 33%; 
+        border-radius:50% ;
+        width: 180px;
+        height: 180px;
+    
+    }
+    
+    .dayMar{
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        margin: -32% 40% 0 35%; 
+        border-radius:50% ;
+        width: 160px;
+        height: 160px;
+        /* opacity: 0.9;    */
+    }
+    .numDays{
+        margin: -10% 0% 0 6%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    
+    .fullyDates{
+        margin: -16% 0 9% 0%;
+        text-align: center;
+        color: rgb(54, 24, 24);
+        font-size: 14px;
+    }
+    
+    .refreshBtn{
+        margin: 8% 0% 4% 40%;
+    }
+    
+    .moisture{
+        background-color: #BFE7BF;
+        flex-wrap: wrap;  
+        width: 180px;
+        height: 100px;
+        margin: 0% 0 0 15%;
+        opacity: 0.8;
+    }
+    
+    .moisttxt{
+        margin: -15% 0 0 36%;
+        font-size: 18px;
+       
+    }
+    .presentage{
+        margin: 0% 0 0 47%; 
+        font-size: 18px;
+    }
+    
+    .moistImg{
+        height: 30px;
+        width: 30px;
+        margin-top: 20px;
+        
+    }
+    
+    .Icon{
+        margin-left: 20px;   
+    }
+    
+    .pH{
+        background-color: #BFE7BF;
+        flex-wrap: wrap;
+        width: 180px; 
+        height: 100px;
+        padding-top: 26px; 
+        margin: -18.8% 0 0 55%; 
+        opacity: 0.8;
+    }
+    .pHtxt{
+        margin: -18% 0 0 36%;
+        font-size: 18px;
+    }
+    
+    .phImg{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .presentage_1{
+        margin: 7% 0 0 47%;
+        font-size: 18px;   
+    }
+    
+    .temperature{
+        background-color: #BFE7BF;
+        flex-wrap: wrap;
+        width: 180px; 
+        height: 100px;
+        padding-top: 28px;
+        margin: 2% 0 0 15%;
+        opacity: 0.8;
+    }
+    .temptxt{
+        margin: -20% 0 0 36%;
+        font-size: 18px;
+    }
+    
+    .tempImg{
+        height: 30px;
+        width: 30px;
+    }
+    .presentage_2{
+        margin: 7% 0 0 47%;
+        font-size: 18px;   
+    }
+    
+    .comStage{
+        background-color: #BFE7BF;
+        flex-wrap: wrap;
+        width: 180px; 
+        height: 100px;
+        padding-top: 30px;
+        margin: -18.8% 0 6% 55%;
+        opacity: 0.8;
+    }
+    
+    .comtxt{
+        margin: -20% 0 0 38%;
+        font-size: 18px;
+    }
+    
+    .comImg{
+        height: 30px;
+        width: 30px;
+    }
+    }
 
-.tempImg{
-    height: 50px;
-    width: 50px;
-}
-.presentage_2{
-    margin: 7% 0 0 47%;
-    font-size: 20px;   
-}
-
-.comStage{
-    background-color: #BFE7BF;
-    flex-wrap: wrap;
-    width: 230px; 
-    height: 110px;
-    padding-top: 30px;
-    margin: -7.3% 0 0 53%;
-    opacity: 0.8;
-}
-
-.comtxt{
-    margin: -20% 0 0 30%;
-    font-size: 25px;
-}
-
-.comImg{
-    height: 40px;
-    width: 40px;
-}

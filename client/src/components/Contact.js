@@ -12,16 +12,18 @@ function Contact() {
     // </div>
     <div>
     <header>
-        <Link to="/"><img src={Logo} /></Link>
+        <Link to="/"><img src={Logo} className = "LogoImg"/></Link>
         <nav>
             <ul class="nav_links">
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/community">Community</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact Us</Link></li>
             </ul>
         </nav>
         <Link class="cta" to="/logintype"><button>Login</button></Link>
+        <Link class="cta2" to="/Signup">
+          <button>Signup</button>
+        </Link>
     </header>
     </div>
   )

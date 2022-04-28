@@ -5,9 +5,249 @@
     padding: 0;
 }
 
-.hometxt{
-    color: aliceblue;
-    margin: 12% 0 0 25%;
-    font-family: 'Dancing Script', cursive;
-    font-size: 50px;
+/* .temp{
+    color: white;
+} */
+
+@media only screen and (max-width: 1000px) {
+
+    
+body{
+    background-image: url("../IMAGES/plant-in-compost.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
 }
+
+li,a,button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    /* background-color: aliceblue; */
+}
+
+.logo{
+    cursor: pointer;
+    
+    margin: 0% 0% 0% 0%;
+}
+
+.LogoImg{
+    display: none;
+    margin: 0% 0% 0% -55%;
+}
+.nav_links{
+    list-style: none;
+    margin-left: -40%;
+   
+}
+
+.nav_links li{
+    display: inline;
+    padding: 0 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    font-size: 11px;
+    padding-right: 2px;
+} 
+
+.nav_links li a:hover{
+    color: #CA791A;
+}
+
+/* button{
+    padding: 0px 0px;
+    background-color: #CA791A;
+    opacity: 0.8;
+    border: none;
+    font-size: 11px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+   
+} */
+
+.cta2 button{
+    font-size: 11px;
+
+}
+
+.cta button{
+    font-size: 11px;
+    padding: 0px 0px;
+   
+}
+
+.cta2{
+    padding: 0px 0px;
+    background-color: #CA791A;
+    opacity: 0.8;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    /* margin-left: 2%; */
+    font-size: 11px;
+}
+
+.cta{
+    margin-left: 16px;
+    margin-right: 18px;
+    padding: 0px 0px;
+    background-color: #CA791A;
+    opacity: 0.8;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 11px;
+}  
+ 
+
+button:hover{
+    opacity: 1;
+
+}
+    
+    .hometxt{
+        color:rgb(252, 251, 251);
+        margin: 10% 0 0 10%;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+    }
+    
+    
+     /* .temp{
+        display: block;   
+        color: white; 
+    } 
+     */
+    .HomeImg{
+        display: none;
+        margin: 10% 0% 0% 0%;
+    }
+
+  } 
+
+  @media only screen and (min-width: 600px) {
+
+    
+body{
+    background-image: url("../IMAGES/plant-in-compost.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li,a,button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    /* background-color: aliceblue; */
+}
+
+.logo{
+    cursor: pointer;
+    margin: 0% 0% 0% -20%;
+}
+
+.LogoImg{
+    
+    margin: 0% 0% 0% -180%;
+}
+.nav_links{
+    list-style: none;
+    margin-left: -60%;
+}
+
+.nav_links li{
+    display: inline;
+    padding: 0 20px;
+   
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #CA791A;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #CA791A;
+    opacity: 0.8;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+
+.cta2{
+    padding: 9px 25px;
+    background-color: #CA791A;
+    opacity: 0.8;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: -40%;
+}
+
+.cta{
+    margin-right: -25%;
+}  
+ 
+
+button:hover{
+    opacity: 1;
+
+}
+
+    .hometxt{
+        color: rgb(250, 250, 250);
+        margin: 19% 0 0 10%;
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+    }
+
+    /* .temp{
+        display:none;
+    } */
+
+    .homeContent{
+        display: flex;
+    }
+    
+    .HomeImg{
+        width: 500px;
+        margin: 50% 0% 0% -10%;
+    }
+  }
+

@@ -18,7 +18,11 @@ const Login = () => {
   const { logIn, googleSignIn } = useUserAuth();
   const navigate = useNavigate();
 
+  
+<<<<<<< HEAD
+
   const UserLogin = () => {
+    localStorage.setItem('UserEmail', email);
     Axios.post("http://localhost:3001/api/insert", {
       Email: email, 
       Password: password,
@@ -26,6 +30,8 @@ const Login = () => {
       alert("successful insert")
     })
   }; 
+=======
+>>>>>>> main
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -52,16 +58,18 @@ const Login = () => {
     <>
     <div>
     <header>
-        <Link to="/"><img src={Logo} /></Link>
+        <Link to="/"><img src={Logo} className = "LogoImg" /></Link>
         <nav>
             <ul class="nav_links">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/community">Community</Link></li>
+                <li><Link to="/">Home</Link></li> 
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact Us</Link></li>
             </ul>
         </nav>
         <Link class="cta" to="/logintype"><button>Login</button></Link>
+        <Link class="cta2" to="/Signup">
+          <button>Signup</button>
+        </Link>
     </header>
     </div>
       
@@ -71,6 +79,7 @@ const Login = () => {
           <Form.Group className="mb-3 input1" controlId="formBasicEmail">
             <Form.Control
               type="email"
+              className="Email"
               placeholder="Email address"
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -80,12 +89,13 @@ const Login = () => {
             <Form.Control
               type="password"
               placeholder="Password"
+              className="Password"
               onChange={(e) => setPassword(e.target.value)}
             />
           </Form.Group>
 
           <div className="d-grid gap-2">
-            <Button onClick={UserLogin} variant="primary" type="Submit" className="btnlog">
+            <Button variant="primary" type="Submit" className="btnlog">
               Log In
             </Button>
           </div>
