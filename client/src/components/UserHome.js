@@ -36,7 +36,7 @@ const UserHome = () => {
 
 
 useEffect (() => {
-  fetch("/dashboard").then(
+  fetch("https://smart-compost-348508.de.r.appspot.com/dashboard").then(
     res => res.json()
   ).then(
     data=> {

@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f44ab8fe.css",
-    "main.js": "/static/js/main.5cfa037e.js",
+    "main.css": "/static/css/main.0d3abf1e.css",
+    "main.js": "/static/js/main.07ae0c04.js",
+    "static/media/Homepg2.png": "/static/media/Homepg2.701dc6775b52fb8d4348.png",
     "static/media/two-color-expert-icon-from-business-concept-vector-25734766.png": "/static/media/two-color-expert-icon-from-business-concept-vector-25734766.9aaf77f07100719dcbbb.png",
-    "static/media/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png": "/static/media/114-1149878_setting-user-avatar-in-specific-size-without-breaking.d027aa4ca124304336da.png",
     "static/media/plant-in-compost.jpg": "/static/media/plant-in-compost.3e469581187848311da5.jpg",
     "static/media/compostStage.png": "/static/media/compostStage.6701b7146b40086a2038.png",
     "static/media/customer.png": "/static/media/customer.3dce0e67955878b873bc.png",
+    "static/media/customer1.png": "/static/media/customer1.6b76c89401828660a31d.png",
     "static/media/moisture.png": "/static/media/moisture.857c0c4d0dec1da271c7.png",
     "static/media/temperature.png": "/static/media/temperature.35cfa97b19efacdc9302.png",
-    "static/media/ph.png": "/static/media/ph.68ec208d4381dcbd3df8.png",
+    "static/media/hummidity.png": "/static/media/hummidity.be4bdf826e178d85c218.png",
     "index.html": "/index.html",
-    "main.f44ab8fe.css.map": "/static/css/main.f44ab8fe.css.map",
-    "main.5cfa037e.js.map": "/static/js/main.5cfa037e.js.map"
+    "main.0d3abf1e.css.map": "/static/css/main.0d3abf1e.css.map",
+    "main.07ae0c04.js.map": "/static/js/main.07ae0c04.js.map"
   },
   "entrypoints": [
-    "static/css/main.f44ab8fe.css",
-    "static/js/main.5cfa037e.js"
+    "static/css/main.0d3abf1e.css",
+    "static/js/main.07ae0c04.js"
   ]
 }
