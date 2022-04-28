@@ -19,7 +19,6 @@ const Login = () => {
   const navigate = useNavigate();
 
   
-<<<<<<< HEAD
 
   const UserLogin = () => {
     localStorage.setItem('UserEmail', email);
@@ -30,8 +29,6 @@ const Login = () => {
       alert("successful insert")
     })
   }; 
-=======
->>>>>>> main
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -95,7 +92,7 @@ const Login = () => {
           </Form.Group>
 
           <div className="d-grid gap-2">
-            <Button variant="primary" type="Submit" className="btnlog">
+            <Button onClick={UserLogin} variant="primary" type="Submit" className="btnlog">
               Log In
             </Button>
           </div>

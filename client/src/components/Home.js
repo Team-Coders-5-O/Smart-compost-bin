@@ -44,7 +44,7 @@ function Home() {
         <div className="hometxt">
       
           <p>Hi There,</p>
-          <p>Make your own smart compost bin </p>
+          <p>Make yorr own compost bin smart compost bin</p>
           <p>Join with us......</p>
           </div>
       </div>

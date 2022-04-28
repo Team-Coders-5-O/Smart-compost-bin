@@ -115,9 +115,9 @@ button:hover{
 }
 
 .notification{
-    width: 130%;
+    width: 60%;
     height: 50vh;
-    margin-left: -15%;
+    margin-left: 20%;
     overflow: auto;
 }
 
@@ -151,13 +151,13 @@ button:hover{
     height: 33px;
     cursor: pointer;
     background-color: rgb(255, 255, 255);
-    margin-left: 0%;
+    margin-left: 2.5%;
      
 }
 
 .buttons{
     display: flex;
-    margin: 4% 0% 0%-9.92%;
+    margin: 4% 0% 0% -2%;
     text-align: center;
     font-size: 20px; 
     background-color: rgb(255, 255, 255);
@@ -172,7 +172,7 @@ button:hover{
     color: black; 
     border-radius: 0%;
     font-family: 'Port Lligat Sans';
-    margin: 0% 0% 0% 2%;
+    margin: 1% 0% 0% 2%;
     padding: 0%;
     font-size: 20px;
 }
@@ -230,14 +230,14 @@ button:hover{
 }
 
 .searchBox{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 300px;
     height: 50px;
     border-radius: 40px;
     display: flex;
     align-items: center;
     padding: 8px;
-    margin: 4% 0% 0% 40%;
+    margin: 4% 0% 0% 42%;
     opacity: 0.7;
 }
 
@@ -491,7 +491,7 @@ button:hover{
         display: flex;
         align-items: center;
         padding: 8px;
-        margin: 4% 0% 0% 16%;
+        margin: 4% 0% 0% 20%;
         opacity: 0.7;
     }
     
