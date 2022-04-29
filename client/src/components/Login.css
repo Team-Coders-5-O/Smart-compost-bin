@@ -236,3 +236,88 @@
         margin: 3% 0% 4% 8%;
     }
 }
+
+@media only screen and (max-width: 350px) {
+
+
+    .mb-3{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        margin-top: 5%;
+        font-family: 'Inter', sans-serif;
+    
+    }
+    
+    
+    .input1 , .input2{
+        padding-left: 300px;
+        width: 620px;
+        height: 30px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        /* color: black; */
+        font-weight: bold;
+        border-radius: 50px;
+        border: 0;
+        opacity: 100%;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .input2{
+        margin-top: -10px;
+        color: blue;
+        margin: 0% 0% 0% -85%;;
+    }
+    
+    .input1{
+        margin: 4% 0% 0% -85%;
+    }
+    
+    .Email{
+        margin: 5% 0% 0% 0%;
+        color: black;
+        height: 40px;
+        width: 300px;
+    }
+    
+    .Password{
+        height: 40px;
+        width: 300px;
+    }
+    
+    .btnlog, .btnsign{
+        margin-left: -5px;
+        width: 300px;
+    
+    }
+
+   
+    
+    .googlebtn{
+        width:340px;
+        margin-right: 60px;
+        margin-bottom: 3%;
+    }
+    
+    .phonebtn{
+        margin-left:-5px;
+        width: 300px;
+    }
+    
+    .dntacc{
+        margin-left: 20px;
+        width: 320px;
+        margin-bottom: 10%;
+    }
+    .dntacc-link{
+        color: blue;
+        margin: 0% 0% 0% 8%;
+    }
+    
+    .gap-2{
+        margin: 3% 0% 4% 8%;
+    }
+    }
+    

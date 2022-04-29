@@ -72,11 +72,10 @@ useEffect (() => {
       <div className="dashboard">
         <div className="days"></div>
         <div className="dayMar"></div>
-        <div className="numDays">{data.days}</div>
+        <div className="numDays">{data.days}2</div>
         <div className="fullyDates">Days out of 60 days</div>
 
-        <div className="ex">example</div>
-
+        
         <button className="refreshBtn" onClick={refreshPage}>Refresh</button>
         <div className="readings">
 

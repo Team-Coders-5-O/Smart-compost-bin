@@ -9,7 +9,7 @@
     color: white;
 } */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 2500px) {
 
     
 body{
@@ -44,8 +44,8 @@ header{
 }
 
 .LogoImg{
-    display: none;
-    margin: 0% 0% 0% -55%;
+    /* display: none; */
+    margin: 0% 0% 0% -180%;
 }
 .nav_links{
     list-style: none;
@@ -60,7 +60,7 @@ header{
 
 .nav_links li a{
     transition: all 0.3s ease 0s;
-    font-size: 11px;
+    font-size: 15px;
     padding-right: 2px;
 } 
 
@@ -69,7 +69,7 @@ header{
 }
 
 /* button{
-    padding: 0px 0px;
+    padding: 9px 25px;
     background-color: #CA791A;
     opacity: 0.8;
     border: none;
@@ -81,33 +81,33 @@ header{
 } */
 
 .cta2 button{
-    font-size: 11px;
+    font-size: 15px;
 
 }
 
 .cta button{
-    font-size: 11px;
-    padding: 0px 0px;
-   
+    font-size: 15spx;
+    padding: 9px 25px;
+    
 }
 
 .cta2{
-    padding: 0px 0px;
+    padding: 9px 25px;
     background-color: #CA791A;
     opacity: 0.8;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    /* margin-left: 2%; */
-    font-size: 11px;
+    margin-left: -20%;
+    margin-right: -30%;
 }
 
 .cta{
-    margin-left: 16px;
-    margin-right: 18px;
-    padding: 0px 0px;
-    background-color: #CA791A;
+    margin-left: 80px;
+    /* margin-right: 18px; */
+    padding: 9px 25px;
+    background-color: #ffffff;
     opacity: 0.8;
     border: none;
     border-radius: 50px;
@@ -123,10 +123,10 @@ button:hover{
 }
     
     .hometxt{
-        color:rgb(252, 251, 251);
-        margin: 10% 0 0 10%;
+        color:rgb(255, 255, 255);
+        margin: 15% 0 0 10%;
         font-family: 'Dancing Script', cursive;
-        font-size: 30px;
+        font-size: 60px;
     }
     
     
@@ -136,13 +136,20 @@ button:hover{
     } 
      */
     .HomeImg{
-        display: none;
-        margin: 10% 0% 0% 0%;
+        /* display: none; */
+        margin: 0% 0% 0% 0%;
     }
 
+    .homeContent{
+        display: flex;
+    }
+    .HomeImg{
+        width: 500px;
+        margin: 50% 0% 0% -10%;
+    }
   } 
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (max-width: 900px) {
 
     
 body{
@@ -175,7 +182,7 @@ header{
 }
 
 .LogoImg{
-    
+    display: none;
     margin: 0% 0% 0% -180%;
 }
 .nav_links{
@@ -186,42 +193,58 @@ header{
 .nav_links li{
     display: inline;
     padding: 0 20px;
-   
+    margin-left: -10px;
 }
 
 .nav_links li a{
     transition: all 0.3s ease 0s;
+    font-size: 13px;
 }
 
 .nav_links li a:hover{
     color: #CA791A;
 }
 
-button{
-    padding: 9px 25px;
+/* button{
+    padding: 7px 14px;
     background-color: #CA791A;
     opacity: 0.8;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    
 }
+     */
+
 
 
 .cta2{
-    padding: 9px 25px;
+    padding: 0px 0px;
     background-color: #CA791A;
     opacity: 0.8;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin-right: -40%;
+    /* margin-left: -100%; */
+    margin-right: -10%;
 }
 
 .cta{
-    margin-right: -25%;
+    margin-right: 2%;
+    margin-left: -60%;
+}
+
+.cta button{
+    padding: 0px 0px;
+    background-color: #CA791A;
+    opacity: 0.8;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    
 }  
  
 
@@ -230,24 +253,156 @@ button:hover{
 
 }
 
-    .hometxt{
-        color: rgb(250, 250, 250);
-        margin: 19% 0 0 10%;
-        font-family: 'Dancing Script', cursive;
-        font-size: 50px;
-    }
+.hometxt{
+    color: rgb(255, 255, 255);
+    margin: 19% 0 0 10%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
 
-    /* .temp{
-        display:none;
-    } */
 
-    .homeContent{
-        display: flex;
+.homeContent{
+    display: flex;
+}
+    
+.HomeImg{
+    display: none;
+    width: 500px;
+    margin: 50% 0% 0% -10%;
+}
+}
+
+@media only screen and (max-width: 350px) {
+
+    
+    body{
+        background-image: url("../IMAGES/plant-in-compost.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
     }
     
-    .HomeImg{
-        width: 500px;
-        margin: 50% 0% 0% -10%;
+    li,a,button{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #edf0f1;
+        text-decoration: none;
+    
+    
     }
-  }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        /* background-color: aliceblue; */
+    }
+    
+    .logo{
+        cursor: pointer;
+        margin: 0% 0% 0% -20%;
+    }
+    
+    .LogoImg{
+        display: none;
+        margin: 0% 0% 0% -180%;
+    }
+    .nav_links{
+        list-style: none;
+        /* margin-left: -60%; */
+    }
+    
+    .nav_links li{
+        display: inline;
+        padding: 0 20px;
+        margin-left: -32px;
+        /* font-size: 10px; */
+    }
+    
+    .nav_links li a{
+        transition: all 0.3s ease 0s;
+        font-size: 10px;
+    }
+    
+    .nav_links li a:hover{
+        color: #CA791A;
+    }
+    
+    /* button{
+        padding: 0px 0px;
+        background-color: #CA791A;
+        opacity: 0.8;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        
+    } */
+    a.cta{
+        padding: 0px 0px;
+    }
+    
+    .cta2 button{
+        padding: 4px 10px;
+        background-color: #CA791A;
+        opacity: 0.8;
+        border: none;
+        border-radius: 50px;
+        font-size: 11px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        /* margin-left: 0%;
+        margin-right: 0%; */
+    }
+
+    .cta2{
+        margin-left: -140px;
+        margin-right: -2%;
+    }
+    
+    .cta button{
+        padding: 4px 10px;
+        background-color: #CA791A;
+        opacity: 0.8;
+        border: none;
+        border-radius: 50px;
+        font-size: 11px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        /* margin-left: 10%;
+        margin-right: -15%; */
+    }  
+
+    .cta{
+        margin-right: 40%;
+    }
+     
+    
+    button:hover{
+        opacity: 1;
+    
+    }
+    
+        .hometxt{
+            color: rgb(250, 250, 250);
+            margin: 19% 0 0 10%;
+            font-family: 'Dancing Script', cursive;
+            font-size: 20px;
+        }
+    
+        /* .temp{
+            display:none;
+        } */
+    
+        .homeContent{
+            display: flex;
+        }
+        
+        .HomeImg{
+            width: 500px;
+            margin: 50% 0% 0% -10%;
+        }
+      }
 
