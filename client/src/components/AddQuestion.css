@@ -74,6 +74,7 @@ header{
 }
 
 .submit-question{
+    margin-top: 50px;
     padding: 9px 25px;
     background-color: #CA791A;
     opacity: 0.8;

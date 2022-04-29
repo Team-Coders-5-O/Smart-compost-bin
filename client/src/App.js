@@ -12,6 +12,7 @@ import Community from './components/AddQuestion';
 import About from './components/About';
 import Contact from './components/Contact'
 import LoginType from './components/loginType';
+import Reply from './components/Reply';
 import { UserAuthContextProvider } from './context/UserAuthContext';
 
 
@@ -38,6 +39,7 @@ function App() {
               <Route path='/phonesignup' element= {<PhoneSignup />} />
               <Route path='/community' element= {<Community />} />
               <Route path='/logintype' element= {<LoginType />} />
+              <Route path='/reply' element= {<Reply/>} />
 
             </Routes>
           </UserAuthContextProvider>
