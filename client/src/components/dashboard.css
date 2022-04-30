@@ -267,7 +267,7 @@
     .days{
         text-align: center;
         background-color: gray;
-        margin: 4% 40% 0% 33%; 
+        margin: 1% 40% 0% 33%; 
         border-radius:50% ;
         width: 180px;
         height: 180px;
@@ -399,7 +399,7 @@
     }
     }
 
-    @media only screen and (max-width: 350px) {
+    @media only screen and (max-width: 412px) {
 
         body{
             background-image: url("../IMAGES/plant-in-compost.jpg");
@@ -423,6 +423,7 @@
         }
         
         .logo{
+            display: none;
             cursor: pointer;
         }
         
@@ -433,6 +434,7 @@
         .nav_links li{
             display: inline;
             padding: 0 20px;
+            /* margin-right: -10%; */
         }
         
         .nav_links li a{
@@ -453,7 +455,8 @@
             transition: all 0.3s ease 0s;
         
         }
-        
+
+       
         button:hover{
             opacity: 1;
         
@@ -462,38 +465,38 @@
         .days{
             text-align: center;
             background-color: gray;
-            margin: 4% 40% 0% 25%; 
+            margin: 0% 40% 0% 25%; 
             border-radius:50% ;
-            width: 180px;
-            height: 180px;
+            width: 170px;
+            height: 170px;
         
         }
         
         .dayMar{
             text-align: center;
             background-color: rgb(255, 255, 255);
-            margin: -52% 40% 0 28.5%; 
+            margin: -41.5% 40% 0 27.4%; 
             border-radius:50% ;
-            width: 160px;
-            height: 160px;
+            width: 152px;
+            height: 152px;
             /* opacity: 0.9;    */
         }
         .numDays{
-            margin: -20% 0% 0 9%;
+            margin: -28% 0% 3% -5%;
             text-align: center;
             color: rgb(0, 0, 0);
             font-size: 20px;
         }
         
         .fullyDates{
-            margin: -19% 0 9% 9%;
+            margin: 0% 0 0% -5%;
             text-align: center;
             color: rgb(0, 0, 0);
             font-size: 14px;
         }
         
         .refreshBtn{
-            margin: 19% 0% 4% 35%;
+            margin: 16% 0% 4% 32%;
         }
         
         .moisture{
@@ -501,7 +504,7 @@
             flex-wrap: wrap;  
             width: 150px;
             height: 90px;
-            margin: 0% 0 0 6%;
+            margin: 0% 0 0 9%;
             opacity: 0.8;
         }
         
@@ -532,7 +535,7 @@
             width: 150px; 
             height: 90px;
             padding-top: 26px; 
-            margin: -27.5% 0 0 54%; 
+            margin: -23% 0 0 49%; 
             opacity: 0.8;
         }
         .pHtxt{
@@ -556,7 +559,7 @@
             width: 150px; 
             height: 90px;
             padding-top: 28px;
-            margin: 2% 0 0 6%;
+            margin: 1.4% 0 0 9%;
             opacity: 0.8;
         }
         .temptxt{
@@ -579,7 +582,7 @@
             width: 150px; 
             height: 90px;
             padding-top: 30px;
-            margin: -27.5% 0 6% 54%;
+            margin: -23% 0 6% 49%;
             opacity: 0.8;
         }
         

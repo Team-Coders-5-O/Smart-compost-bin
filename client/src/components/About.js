@@ -25,6 +25,13 @@ function About() {
           <button>Signup</button>
         </Link>
     </header>
+
+    <div className="AboutUs">
+      
+          <p>Hi There,</p>
+          <p>Make yorr own smart compost bin</p>
+          <p>Join with us......</p>
+          </div>
     </div>
   )
 }

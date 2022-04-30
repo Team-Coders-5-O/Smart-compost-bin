@@ -237,13 +237,13 @@
     }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 412px) {
 
 
     .mb-3{
         text-align: center;
         color: rgb(255, 255, 255);
-        font-size: 30px;
+        font-size: 28px;
         margin-top: 5%;
         font-family: 'Inter', sans-serif;
     
@@ -252,7 +252,7 @@
     
     .input1 , .input2{
         padding-left: 300px;
-        width: 620px;
+        width: 600px;
         height: 30px;
         -webkit-border-radius: 50px;
         -moz-border-radius: 50px;
@@ -276,7 +276,7 @@
     }
     
     .Email{
-        margin: 5% 0% 0% 0%;
+        margin: 5% 0% 0% 23%;
         color: black;
         height: 40px;
         width: 300px;
@@ -284,37 +284,43 @@
     
     .Password{
         height: 40px;
+        margin: 5% 0% 0% 23%;
         width: 300px;
     }
     
     .btnlog, .btnsign{
-        margin-left: -5px;
+        margin-left: 12px;
         width: 300px;
-    
+        margin-top: 4%;
     }
 
-   
-    
     .googlebtn{
         width:340px;
-        margin-right: 60px;
+        margin-right: -50%;
         margin-bottom: 3%;
+    }
+
+    .googlebtn .g-btn{
+        margin-left: 15%;
     }
     
     .phonebtn{
-        margin-left:-5px;
+        margin-left: 13px;
         width: 300px;
     }
     
     .dntacc{
-        margin-left: 20px;
-        width: 320px;
+        margin-left: 57px;
+        width: 400px;
+        font-size: 13px;
         margin-bottom: 10%;
     }
     .dntacc-link{
         color: blue;
         margin: 0% 0% 0% 8%;
+        font-size: 16;
     }
+    
     
     .gap-2{
         margin: 3% 0% 4% 8%;
