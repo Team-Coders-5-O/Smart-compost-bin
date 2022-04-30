@@ -1,16 +1,9 @@
-import cv2
-
-video = cv2.VideoCapture(0)
-
-a = 0
+import subprocess
 
 
-def capture():
-    check, frame = video.read()
-    #key = cv2.waitKey(1)
-    #cv2.imshow("Capturing",frame)
-    showPic = cv2.imwrite("compost.jpg",frame)
-    video.release()
+def capture_image():
+    subprocess.run(['fswebcam','-r 1280x720' ,'--no-banner' , 'image.jpg'])
+    
 
-
-capture()
+if __name__ == '__main__':
+    capture_image()
