@@ -31,9 +31,9 @@ function LoginType() {
 
     <div className="type">
       <h1 className="typeHead">Login As</h1>
-      <Link to="/login"><img src={Expert} className="expert" /></Link>
+      <Link to="/expertlogin"><img src={Expert} className="expert" /></Link>
       <Link to="/login"><img src={Customer} className="customer" /></Link>
-      <Link to="/login"><button className="expertbtn">Expert</button></Link>
+      <Link to="/expertlogin"><button className="expertbtn">Expert</button></Link>
       <Link to="/login"><button className="cusbtn">User</button></Link>
 
     
